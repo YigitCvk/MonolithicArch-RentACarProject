@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MonolithicArch.Entities.Abstract;
+using MonolithicArch.Core.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

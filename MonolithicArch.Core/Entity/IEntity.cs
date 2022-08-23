@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MonolithicArch.Entities.Abstract
+namespace MonolithicArch.Core.Entity
 {
     public interface IEntity
     {

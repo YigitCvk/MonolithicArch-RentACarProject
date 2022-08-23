@@ -31,7 +31,7 @@ namespace MonolithicArch.Dal.Concrete.EntityFramework
                 return result.ToList();
 
             }
-
+            
         }
 
         public List<CarDetailDto> GetCarsColorDetail()

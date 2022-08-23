@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace MonolithicArch.Business.Abstract
 {
-    public interface IColorService
+    public interface IRentalService
     {
-        IDataResult<List<Color>> GetAll();
-        IDataResult<Color> GetById(int colorId);
-        IResult Add(Color color);
-        IResult Delete(Color color);
-        IResult Update(Color color);
+        IDataResult<List<Rental>> GetAll();
+        IResult Add(Rental rental);
+        IResult Delete(Rental rental);
+        IResult Update(Rental rental);
     }
 }
